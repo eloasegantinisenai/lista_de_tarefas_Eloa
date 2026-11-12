@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+</head>
+<body>
+    <h1>Minha Agenda</h1>
+
+    <script>
+        let string = ["Minha Agenda"];
+        console.log(`${string}`);
+        let num = ["6h-Acordar", "7h-Estudar", "10h-Lanchar", "12h-Almoçar", "15h-Lanchar", "17h-Tomar banho", "20h-Jantar"];
+        console.log(`${num[0]}`);
+        console.log(`${num[1]}`);
+        console.log(`${num[2]}`);
+        console.log(`${num[3]}`);
+        console.log(`${num[4]}`);
+        console.log(`${num[5]}`);
+        console.log(`${num[6]}`);
+        
+        //Atributo para saber o comprimento do nosso vetor(array)
+        num.length;
+        console.log(`Você tem ${num.length} tarefas pendentes`);
+
+        //Atributo utilizado para adicionar valor no vetor, onde não precisamos nos preocupar com a extensão
+        num.push("Urgente: 16h- Ir ao médico");
+        console.log(num);
+
+        //Podemos colocar o nosso vetor em ordem crescente
+        num.sort()
+        console.log(`Organizar a lista ${num}`);
+
+        num.shift()
+        console.log(`Tarefa concluída: ${num[0]}`);
+
+        num.pop;
+        console.log(`Ultima tarefa removida: ${num[8]}`)
+    </script>
+</body>
+</html>
